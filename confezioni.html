@@ -19,6 +19,7 @@
     <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/helper.css" rel="stylesheet" type="text/css" />
     <link href="css/aos.css" rel="stylesheet" type="text/css" />
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 </head>
@@ -57,7 +58,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-md-5 col-sm-4 col-7 text-left">
                         <!--logo start-->
-                        <a class="logo" href="#"><img src="img/logo.png" class="img-fluid" alt="">TIDÒ</a>
+                        <a class="logo" href="index.html"><img src="img/logo.png" class="img-fluid" alt="">TIDÒ</a>
                         <!--logo end-->
                     </div>
                     <div class="col-lg-10 col-md-7 col-sm-8 col-5 d-flex align-items-center justify-content-end">
@@ -169,7 +170,55 @@
         </div>
         <!-- la parola area end -->
 
-        <div class="social-wrapper default-social-wrapper">
+        <!-- gallery area start -->
+        <div class="gallery-wrapper">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <h2 class="head-text mb_60">Gallery:</h2>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="gallery-box position-relative">
+                            <a class="active-img" href="img/car-1.jpeg"><i class="fal fa-plus"></i></a>
+                            <img src="img/car-1.jpeg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="gallery-box position-relative">
+                            <a class="active-img" href="img/car-2.jpeg"><i class="fal fa-plus"></i></a>
+                            <img src="img/car-2.jpeg" class="w-100" alt="">                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="gallery-box position-relative">
+                            <a class="active-img" href="img/car-3.jpeg"><i class="fal fa-plus"></i></a>
+                            <img src="img/car-3.jpeg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="gallery-box position-relative">
+                            <a class="active-img" href="img/car-4.jpeg"><i class="fal fa-plus"></i></a>
+                            <img src="img/car-4.jpeg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="gallery-box position-relative">
+                            <a class="active-img" href="img/car-5.jpeg"><i class="fal fa-plus"></i></a>
+                            <img src="img/car-5.jpeg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="gallery-box position-relative">
+                            <a class="active-img" href="img/car-6.jpeg"><i class="fal fa-plus"></i></a>
+                            <img src="img/car-6.jpeg" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery area end -->
+
+        <div class="social-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -193,6 +242,17 @@
     <!-- all js here -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/plugins.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+
+
+        $('.active-img').magnificPopup({
+          type: 'image'
+          // other options
+        });
+
+        
+    </script>
 </body>
 </html>

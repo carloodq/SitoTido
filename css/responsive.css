@@ -243,5 +243,9 @@
 	.la-parola-wrapper .head-text.mt_50 {
     	font-size: 25pt;
 	}
+
+	.gallery-wrapper .head-text.mb_60 {
+    	margin-bottom: 30px;
+	}
 }
 
